@@ -1,7 +1,12 @@
 {
   "expo": {
-    "name": "CovidApp",
+    "name": "Covid-19 Tracker",
     "slug": "CovidApp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,11 +21,15 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.CovidTracker.CovidTracker"
+    },
+    "android":{
+      "package":"com.CovidTracker.CovidTracker"
     }
   }
 }

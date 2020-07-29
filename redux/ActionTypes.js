@@ -1,0 +1,11 @@
+export const FETCH_STATS = 'FETCH_STATS'
+export const LOADING_STATS = 'LOADING_STATS'
+export const ERROR_STATS = 'ERROR_STATS'
+export const FETCH_DISTRICT = 'FETCH_DISTRICT'
+export const LOADING_DISTRICT = 'LOADING_DISTRICT'
+export const LOADING_DATA = 'LOADING_DATA'
+export const FETCH_DATA = 'FETCH_DATA'
+export const FETCH_WORLD = 'FETCH_WORLD'
+export const LOADING_WORLD = 'LOADING_WORLD'
+
+
